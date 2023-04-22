@@ -1,0 +1,101 @@
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    display: flex;
+    justify-content: left;
+}
+
+#anuncio {
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+#logoRecode {
+    width: 5%;
+    margin: 10px 0 10px 30px;
+}
+
+#navegacao {
+    width: 35%;
+    height: 100%;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: 0;
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    text-align: center;
+}
+
+.btn-confirma{
+    margin: 10px;
+    border: 5px solid #F95E3C;
+    border-radius: 5px;
+    background-color: #E83711;
+    color: #D6D3D3;
+}
+
+.destaques{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 300px;
+    margin: 10%;
+    margin-top: 5%;
+    background-color: #BBF5A0;
+}
+
+.produto {
+    display: grid;
+    align-items: center;
+    border: 5px #D6F0CC;
+    border-style: none;
+    border-right-style: solid;
+    margin: 20px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+.imgProduto {
+    width: 100%;
+}
+
+.btn-compra {
+    border-radius: 10px;
+    background-color: #51DF1A;
+}
+
+.btn-compra:hover {
+    background-color: #92E970;
+    transition: 1s;
+}
+
+p {
+    font-family: font: italic 1.2em "Fira Sans", serif;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: green;
+}
+
+.footerContainer {
+    margin: 10px;
+}
